@@ -176,11 +176,20 @@ Clean Up and revert permissions in "ost-config.php" file
 - Now, were going to set the permissions back to "read only" on the "ost-config.php" file. 
 - Inside the osTicket Folder click on the "include" folder > right click on the "ost-config.php" folder > go to "Properties" > Click on the "Security" tab > click "Advanced" > click and highlight on "Everyone" > click "Edit". Only "Read & Execute" and "Read" should be checked off > click on "ok" and then "apply".
   
-- Browse to your help desk login page and you should be able to log in with your Admin credentials and start using the osTicketing System! Click the link to log in! http://localhost/osTicket/scp/login.php  
+<p>
+<img src="https://i.imgur.com/pWDIJs7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
   
+- Browse to your help desk login page and you should be able to log in with your Admin credentials and start using the osTicketing System! Click the link to log in! http://localhost/osTicket/scp/login.php  
 - End users osTicket URL: http://localhost/osTicket/ 
   
- -Congratualtions! You have succesfully installed and configured the osTicketing System! Hope you enjoyed this repository. 
+<p>
+<img src="https://i.imgur.com/rPfq0g4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  
+ -Congratulations! You have succesfully installed and configured the osTicketing System! Hope you enjoyed this repository. 
   
 
 

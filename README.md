@@ -166,11 +166,11 @@ Download and Install "HeidiSQL" from your browser.
 - Congratualtions! You just installed osTicket! We're almost done! 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jI9vrWx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Clean Up
+Clean Up and revert permissions in "ost-config.php" file
 
 -Go to your (C:) drive > inetpub > wwwroot > open the osTicket. Right click the "setup" folder and delete it. 
 - Now, were going to set the permissions back to "read only" on the "ost-config.php" file. 

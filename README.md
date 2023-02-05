@@ -103,7 +103,7 @@ Install osTicket v1.15.8 (from your browswer)
 - You then go to the original file explorer and drag the "upload" folder into the "wwwroot" window.
 - Now you should have the "upload" folder in the "wwwroot" folder.
 - Next, rename the "upload" folder" you just dragged and name it "osTicket".
-- Now, click on "restart" to refresh your IIS Manager located on the "Manager Server" the right, top corner of the IIS Manager window. 
+- Click on "restart" to refresh your IIS Manager located on the "Manager Server" the right, top corner of the IIS Manager window. 
 - Click on bottom arrow next to "sites" on the left column inside the IIS Manager, then click on the arrow next to "Deafult Web Site", and double click on the "osTicket" Folder. Next, on the right column of the IIS Manager window click on "Browse*:80 (http)"
 - The osTicket Installer should open in your browser. 
 - Next we're going to enable a few extensions on the osTicket Installer. 
@@ -174,7 +174,14 @@ Clean Up
 
 -Go to your (C:) drive > inetpub > wwwroot > open the osTicket. Right click the "setup" folder and delete it. 
 - Now, were going to set the permissions back to "read only" on the "ost-config.php" file. 
-- Inside the osTicket Folder click on the "include" folder > right click on the "ost-config.php" folder > go to "Properties" > Click on the "Security" tab > click "Advanced" > click and highlight on "Everyone" > click "Edit" 
+- Inside the osTicket Folder click on the "include" folder > right click on the "ost-config.php" folder > go to "Properties" > Click on the "Security" tab > click "Advanced" > click and highlight on "Everyone" > click "Edit". Only "Read & Execute" and "Read" should be checked off > click on "ok" and then "apply".
+  
+- Browse to your help desk login page and you should be able to log in with your Admin credentials and start using the osTicketing System! Click the link to log in! http://localhost/osTicket/scp/login.php  
+  
+- End users osTicket URL: http://localhost/osTicket/ 
+  
+ -Congratualtions! You have succesfully installed and configured the osTicketing System! Hope you enjoyed this repository. 
+  
 
 
 </p>

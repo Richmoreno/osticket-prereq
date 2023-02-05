@@ -43,7 +43,7 @@ Next, log in to your virtual machine.
 <img src="https://i.imgur.com/iO17Bjm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install and Enable IIS in Windows with CGI
+^Install and Enable IIS in Windows with CGI
 
 - Go to the start menu, search and open "Control Panel", and type "Programs" click "Turn Windows features on or off" under "Programs and features".
 - Check off "Internet Information Services (IIS)" and expand it. (Click the + sign to expand) You then expand "World Wide Web". Expand "Application Developer" and finally check "CGI" and press "OK". IIS is now installed. 
@@ -54,7 +54,7 @@ Install and Enable IIS in Windows with CGI
 <img src="https://i.imgur.com/Wewq7zT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install PHP Manager 
+^Install PHP Manager 
 
 - You can search for PHP Manager in any search engine and download from the web and install from your "Downloads Folder"
 - Next, search in a search engine rewrite_amd64_en-US.msi. Download into your downloads folder and install. 
@@ -70,7 +70,7 @@ Install PHP Manager
 </p>
 <p>
 
-Install "MySQL" 5.5.62
+^Install "MySQL" 5.5.62
 
 - Download and intall "MySQL" from your browser. (Do a typical install)
 - After the install is finished, the Configuration Wizard will open up. You then do a "Standard Configuration" 
@@ -82,7 +82,7 @@ Install "MySQL" 5.5.62
 </p>
 <p>
 
-Open IIS as an Admin / Register PHP from within IIS.
+^Open IIS as an Admin / Register PHP from within IIS.
 
 - Click on "Start" search for (IIS) Manager, you then right click on the app and "Run as Adminastrator"
 - Next, double click on the "PHP Manager" icon. Under PHP Setup, click on "Register new PHP Version"
@@ -94,7 +94,7 @@ Open IIS as an Admin / Register PHP from within IIS.
 </p>
 <p>
 
-Install osTicket v1.15.8 (from your browswer)
+^Install osTicket v1.15.8 (from your browser)
 
 - Now, you will need to Extract and copy “upload” folder to c:\inetpub\wwwroot
 - Open another File Explorer window and go to your "downloads".
@@ -113,7 +113,7 @@ Install osTicket v1.15.8 (from your browswer)
 </p>
 <p>
 
-Enabling Extensions on osTicket
+^Enabling Extensions on osTicket.
 
 - Go to the IIS window and click on "sites" on the left column and then open the "osTicket" Folder, and finally click on "PHP Manager" 
 - On the new window under PHP Extensions click on, "Enable or Disable an Extension". Next, you will enable the extensions. 
@@ -129,7 +129,7 @@ Enabling Extensions on osTicket
 </p>
 <p>
 
-Rename ost-config.php and Give "Everyone" Full Permissions.
+^Rename ost-config.php and Give "Everyone" Full Permissions.
 
 -Go to your file explorer, go to your (C:) drive > inetpub > wwwroot > osTicket
 - Click on the "include" folder and rename the PHP file "ost-sampleconfig.php" and name it "ost-config.php".
@@ -142,7 +142,7 @@ Rename ost-config.php and Give "Everyone" Full Permissions.
 </p>
 <p>
 
-Set up osTicket in the browser. (Click Continue)
+^Set up osTicket in the browser. (Click Continue)
 
 Fill out all your information (Write everything down)
 
@@ -151,7 +151,7 @@ Fill out all your information (Write everything down)
 </p>
 <p>
 
-Download and Install "HeidiSQL" from your browser.
+^Download and Install "HeidiSQL" from your browser.
 
 -Once HeidiSQL is installed the Session Manger window will open. 
 - On the bottom, left corner of the window click on "+New" 
@@ -170,7 +170,7 @@ Download and Install "HeidiSQL" from your browser.
 </p>
 <p>
 
-Clean Up and revert permissions in "ost-config.php" file
+^Clean Up and revert permissions in "ost-config.php" file
 
 -Go to your (C:) drive > inetpub > wwwroot > open the osTicket. Right click the "setup" folder and delete it. 
 - Now, were going to set the permissions back to "read only" on the "ost-config.php" file. 
@@ -181,7 +181,7 @@ Clean Up and revert permissions in "ost-config.php" file
 </p>
 <p>
   
-- Browse to your help desk login page and you should be able to log in with your Admin credentials and start using the osTicketing System! Click the link to log in! http://localhost/osTicket/scp/login.php  
+^Browse to your help desk login page and you should be able to log in with your Admin credentials and start using the osTicketing System! Click the link to log in! http://localhost/osTicket/scp/login.php  
 - End users osTicket URL: http://localhost/osTicket/ 
   
 <p>
@@ -189,7 +189,7 @@ Clean Up and revert permissions in "ost-config.php" file
 </p>
 <p>
   
- -Congratulations! You have succesfully installed and configured the osTicketing System! Hope you enjoyed this repository. 
+ Congratulations! You have succesfully installed and configured the osTicketing System! Hope you enjoyed this repository. 
   
 
 

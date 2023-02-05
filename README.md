@@ -78,7 +78,7 @@ Install "MySQL" 5.5.62
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4YA4k8C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -90,7 +90,7 @@ Open IIS as an Admin / Register PHP from within IIS.
 - Now, click on "restart" to refresh your IIS Manager located on the "Manager Server" the right, top corner of the IIS Manager window. 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yTboQQ7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -109,7 +109,7 @@ Install osTicket v1.15.8 (from your browswer)
 - Next we're going to enable a few extensions on the osTicket Installer. 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vAKZXaq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -125,11 +125,11 @@ Enabling Extensions on osTicket
 -Refresh the osTicket site in your browser, and observe the changes.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PQ8c5FR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-Rename ost-config.php
+Rename ost-config.php and Give "Everyone" Full Permissions.
 
 -Go to your file explorer, go to your (C:) drive > inetpub > wwwroot > osTicket
 - Click on the "include" folder and rename the PHP file "ost-sampleconfig.php" and name it "ost-config.php".
@@ -138,7 +138,7 @@ Rename ost-config.php
 -Now everyone has permissions to the folder. 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qFAhJ4T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 

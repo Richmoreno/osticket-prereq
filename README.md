@@ -40,7 +40,7 @@ Next, log in to your virtual machine.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iO17Bjm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install and Enable IIS in Windows with CGI
@@ -51,7 +51,7 @@ Install and Enable IIS in Windows with CGI
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Wewq7zT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install PHP Manager 
@@ -66,7 +66,7 @@ Install PHP Manager
 - Download and install "Microsoft C++" from your browser.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bhFnUcx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 

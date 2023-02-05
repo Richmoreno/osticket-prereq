@@ -147,7 +147,7 @@ Set up osTicket in the browser. (Click Continue)
 Fill out all your information (Write everything down)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PWv1P5k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
